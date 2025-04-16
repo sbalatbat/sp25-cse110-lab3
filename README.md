@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# Lab 3
 
-[Site](https://sbalatbat.github.io/cse110_Lab2_Starter/)
+[Lab 3 Site](https://sbalatbat.github.io/sp25-cse110-lab3/)
