@@ -2,83 +2,176 @@
 <html>
     <head>
         <title>Pomodoro Timer First Brainstorm</title>
-        <!-- TODO: meta, link -->
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     </head>
     <body>
-        <h1>Pomodoro Timer First Brainstorm</h1>
-        <subtitle>Brainstorming</subtitle><br>
-        <subtitle><i>April 9, 2025</i></subtitle>
-        <div>
-            <h2>Attendance</h2>
-            <ul>
-                <li>John Appleseed</li>
-                <li>Marcus Burgham</li>
-                <li>Rob Jobs</li>
-                <li>Alesia Chavez</li>
-            </ul>    
-        </div>
-        <div>
-            <h2>Agenda</h2>
-            <ol>
-                <li>Unfinished Business</li>
-                <li>Job To Be Done</li>
-                <li>Feature Requests</li>
-                <li>Pain Points</li>
-                <li>UI Design</li>
-            </ol>
-        </div>
-        <div>
-            <h3>Unfinished Business</h3>
-            <ol>
-                <li>Role assignments</li>
-                <li>Fill out When2Meet for weekly meetings</li>
-                <li>Request access for project resources</li>
-            </ol>
-        </div>
-        <div>
-            <h3>Job To Be Done</h3>
-            <ul>
-                <li>What users are using the software to <em>get done</em>; their <em>emotional motivation</em></li>
+        <nav>
+            <a href="/">Home</a> |
+            <a href="/cse110_Lab2_Starter/">Last Meeting</a> |
+            <a href="/cse110_Lab2_Starter/mtng.html">All Meetings</a>
+        </nav>
+        <header>
+            <h1>4/19 Pomodoro Timer First Brainstorm</h1>
+            <subtitle>Brainstorming</subtitle><br>
+            <subtitle><i>April 9, 2025</i></subtitle>
+            <p>
+                Meeting Lead: Marcus Burgham
+                <summary>Discussed team organization, market research, and initial designs.</summary>
+                <details>Discussed member assignments, team scheduling, and resource access; JTBD, common requested features, pain points, and competitors; reviewed initial design, gave feedback, and planned next steps.</details>
+            </p>
+            
+        </header>
+        <main>
+            <div>
+                <audio controls>
+                    <source src="media/meeting-audio.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio><br>
+                <video controls src="media/meeting-video.mp4" height="300px">
+                    Your browser does not support the video tag.    
+                </video>
+            </div>
+            <section>
+                <h2>Attendance</h2>
                 <ul>
-                    <li>Get good grades on their exams</li>
-                    <li>Get a raise for their good work</li>
-                    <li>Develop discipline</li>
-                    <li>Take responsibility for their life</li>
-                </ul>
-            </ul>
-        </div>
-        <div>
-            <h3>Feature Requests</h3>
-            <ul>
-                <li>Task list</li>
+                    <li>John Appleseed</li>
+                    <li>Marcus Burgham</li>
+                    <li>Rob Jobs</li>
+                    <li>Alesia Chavez</li>
+                </ul>    
+            </section>
+            <section>
+                <h2>Agenda</h2>
+                <ol>
+                    <li>Unfinished Business</li>
+                    <li>Job To Be Done</li>
+                    <li>Feature Requests</li>
+                    <li>Pain Points</li>
+                    <li>UI Design</li>
+                </ol>
+            </section>
+            <hr>
+            <section>
+                <h3>Unfinished Business</h3>
+                <ol>
+                    <li>Role assignments</li>
+                    <li>Fill out When2Meet for weekly meetings</li>
+                    <li>Request access for project resources</li>
+                </ol>
+            </section>
+            <hr>
+            <section>
+                <h3>Job To Be Done</h3>
                 <ul>
-                    <li></li>
+                    <li>What users are using the software to <em>get done</em>; their <em>emotional motivation</em></li>
+                    <ul>
+                        <li>Get good grades on their exams</li>
+                        <li>Get a raise for their good work</li>
+                        <li>Develop discipline</li>
+                        <li>Take responsibility for their life</li>
+                    </ul>
                 </ul>
-                <li>Custom timer templates</li>
+            </section>
+            <hr>
+            <section>
+                <h3>Feature Requests</h3>
                 <ul>
-
+                    <li>Task list</li>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <li>Custom timer templates</li>
+                    <ul>
+                        <li></li>
+                    </ul>
                 </ul>
-            </ul>
-        </div>
-        <div>
-            <h3>Pain Points</h3>
-        </div>
-        <div>
-            <h3>UI Design</h3>
-            <img> <!-- TODO -->
-        </div>
-        <div>
-            <h3>Comments / Questions / Concerns?</h3>
-        </div>
-
-        <!-- TODO
-            Content sectioning: main, header/footer, nav, section
-            Text content: span, hr, p
-            Inline text semantics: b, strong, i, em, a, br
-            Images and multimedia: img, audio, video
-            Interactive elements: details, summary
-            Forms: form, fieldset, input (have one of each type: checkbox, radio, text, date), textarea, 
-                datalist, select, option, button
-        -->
+            </section>
+            <hr>
+            <section>
+                <h3>Pain Points</h3>
+                <p>Competitors</p>
+                <ul>
+                    <li><a href="https://pomofocus.io/app">Pomofocus</a></li>
+                    <ul>
+                        <li>Limited <b>customization</b></li>
+                    </ul>
+                    <li><a href="https://lifeat.io/">LifeAt</a></li>
+                    <ul>
+                        <li>Too <b>basic</b> of a timer</li>
+                        <li>Kinda <b>boring</b></li>
+                    </ul>
+                </ul>
+            </section>
+            <hr>
+            <section>
+                <h3>UI Design</h3>
+                <img src="./images/ui_design.png" alt="UI design for a pomodoro timer web app" width="400">
+                <ul>
+                    <li>Feedback</li>
+                    <ul>
+                        <li>Maybe make the <em>timer buttons smaller</em>?</li>
+                    </ul>
+                    <li><strong>Needs to be done</strong>: wireframes, settings page, sign up page, log-in page</li>
+                </ul>
+            </section>
+            <hr>
+            <section>
+                <h3>Comments / Questions / Concerns?</h3>
+                <ul>
+                    <li>None.</li>
+                </ul>
+            </section>
+        </main>
+        <hr>
+        <form>
+            <fieldset>
+                <legend>Post-Meeting Concerns</legend>
+                <input type="checkbox" id="read-mtng">
+                <label for="read-mtng">I have read the entire meeting minutes</label><br>
+                <p>
+                    <label for="inquirer">Name: </label>
+                    <input type="text" id="inquirer"><br>
+                    <label for="mtng-date">Relevant Meeting:</label>
+                    <input type="date" id="mtng-date"><br>
+                    <label for="dept">Department: </label>
+                    <select id="dept">
+                        <option value="Design">Design</option>
+                        <option value="DevOps">DevOps</option>
+                        <option value="Marketing">Marketing</option>
+                        <option value="QA">Quality Assurance</option>
+                    </select><br>
+                    <label for="location">Office Location: </label>
+                    <input list="offices" id="location">
+                    <datalist id="offices">
+                        <option value="San Diego">San Diego, CA</option>
+                        <option value="Dallas">Dallas, TX</option>
+                        <option value="Seattle">Seattle, WA</option>
+                    </datalist>
+                </p>
+                <p>Send To:</p>
+                <input type="radio" id="dept-head" name="send-to" value="dept-head">
+                <label for="dept-head">Department Head</label><br>
+                <input type="radio" id="team-lead" name="send-to" value="team-lead">
+                <label for="team-lead">Team Lead</label><br>
+                <input type="radio" id="partner" name="send-to" value="partner">
+                <label for="partner">Partner</label><br>
+                <input type="radio" id="other" name="send-to" value="other">
+                <label for="other">Other</label><br>
+                <label for="other-email">Email (if other): </label>
+                <input type="email" id="other-email">
+                <input type="button" id="mail" value="Mail">
+                <p><label for="concern">Concern:</label></p>
+                <textarea id="concern" name="concern" rows="4" cols="50"></textarea><br>
+                <label for="submit-btn"></label>
+                <input type="submit" id="submit-btn">
+                
+            </fieldset>
+        </form>
+        <footer>
+            <p>Meeting Lead: Marcus Burgham</p>
+            <p><a href="mailto:mburgham@example.com">mburgham@example.com</a></p>
+            <p><i>BoomPow Industries &copy; 2025</i></p>
+        </footer>
     </body>
 </html>
