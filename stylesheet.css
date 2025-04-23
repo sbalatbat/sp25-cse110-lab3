@@ -31,3 +31,22 @@ nav a {
 nav a:hover {
     background-color: hsl(3, 65%, 44%);
 }
+
+/* Header, Footer */
+header { 
+    text-align: center;
+}
+
+footer {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+footer p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
