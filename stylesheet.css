@@ -1,5 +1,6 @@
 :root {
     --accent: rgba(250, 95, 70, 0.9);
+    --mid: rgb(238, 165, 120);
     --light: blanchedalmond;
 }
 
@@ -23,6 +24,7 @@ nav {
     transition: 0.3s ease;
     margin: 0%;
     border: none;
+    position: relative;
 }
 
 nav a {
@@ -42,11 +44,16 @@ header {
     text-align: center;
 }
 
+#title {
+    text-decoration: underline solid red 2px;
+}
+
 footer {
     display: inline-flex;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+    position: absolute;
 }
 
 footer p {
@@ -55,33 +62,28 @@ footer p {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-/* Main */
 
+/* Main */
 main {
     display: grid;
-    /*
-    grid-template-columns: [first col1] 2fr [col2] 2fr [end];
-    grid-template-rows: [first row1] 1fr [row2] 1fr [row3] 1fr [row4] 1fr [end];
-    grid-template-areas:
-        "media media"
-        "1-1 1-2"
-        "2-1 2-2"
-        "3-1 3-2"
-        "4-1 4-2";
-        */
     grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
     justify-content: center;
     gap: 15px;
     margin: auto;
-    position:relative;
+    position: relative;
 }
 
 #media {
     grid-area: media;
     align-content: center;
     align-self: center;
-    border-radius: 0%;
-    background-color: var(--light, rgb(255, 186, 157));
+    border-radius: 10px;
+    background-color: var(--mid, rgb(255, 186, 157));
+    border-style: inset;
+    border-color: var(--accent);
+    border-width: 2mm;
+    min-width: 400px;
+    max-width: 600px;
 }
 
 div {
@@ -94,16 +96,17 @@ div {
     animation: slideIn 1s ease-in-out;
 }
 
-/*
-.row-1 .col-1 { grid-area: 1-1; }
-.row-1 .col-2 { grid-area: 1-2; }
-.row-2 .col-1 { grid-area: 2-1; }
-.row-2 .col-2 { grid-area: 1-2; }
-.row-3 .col-1 { grid-area: 3-1; }
-.row-3 .col-2 { grid-area: 3-2; }
-.row-4 .col-1 { grid-area: 4-1; }
-.row-4 .col-2 { grid-area: 4-2; }
-*/
+.pre {
+    background-color: #73af2a;
+}
+
+.objective {
+    background-color: #e69f29;
+}
+
+.post {
+    background-color: #bd2a1e;
+}
 
 section {
     display: block;
