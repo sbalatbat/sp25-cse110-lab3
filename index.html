@@ -21,9 +21,7 @@
                 <summary>Discussed team organization, market research, and initial designs.</summary>
                 <p>Discussed member assignments, team scheduling, and resource access; JTBD, common requested features, pain points, and competitors; reviewed initial design, gave feedback, and planned next steps.</p>
             </details>
-        </header>
-        <main>
-            <div>
+            <div id="media">
                 <audio controls>
                     <source src="media/meeting-audio.mp3" type="audio/mpeg">
                     Your browser does not support the audio tag.
@@ -32,114 +30,125 @@
                     Your browser does not support the video tag.    
                 </video>
             </div>
-            <section>
-                <h2>Attendance</h2>
-                <ul>
-                    <li>John Appleseed</li>
-                    <li>Marcus Burgham</li>
-                    <li>Rob Jobs</li>
-                    <li>Alesia Chavez</li>
-                </ul>    
-            </section>
-            <section>
-                <h2>Agenda</h2>
-                <ol>
-                    <li>Unfinished Business</li>
-                    <li>Job To Be Done</li>
-                    <li>Feature Requests</li>
-                    <li>Pain Points</li>
-                    <li>UI Design</li>
-                </ol>
-            </section>
-            <hr>
-            <section>
-                <h3>Unfinished Business</h3>
-                <ol>
-                    <li>Role assignments</li>
-                    <li>Fill out When2Meet for weekly meetings</li>
-                    <li>Request access for project resources</li>
-                </ol>
-            </section>
-            <hr>
-            <section>
-                <h3>Job To Be Done</h3>
-                <ul>
-                    <li>
-                        What users are using the software to <em>get done</em>; their <em>emotional motivation</em>
-                        <ul>
-                            <li>Get good grades on their exams</li>
-                            <li>Get a raise for their good work</li>
-                            <li>Develop discipline</li>
-                            <li>Take responsibility for their life</li>
-                        </ul>
-                    </li>
-                    
-                </ul>
-            </section>
-            <hr>
-            <section>
-                <h3>Feature Requests</h3>
-                <ul>
-                    <li>
-                        Task list
-                        <ul>
-                            <li>Add multiple tasks with UI</li>
-                            <li>Import list(?)</li>
-                        </ul>
-                    </li>
-                    
-                    <li>
-                        Custom timer templates
-                        <ul>
-                            <li>Different durations in order</li>
-                            <li>Same duration</li>
-                        </ul>
-                    </li>
-                    
-                </ul>
-            </section>
-            <hr>
-            <section>
-                <h3>Pain Points</h3>
-                <p>Competitors</p>
-                <ul>
-                    <li>
-                        <a href="https://pomofocus.io/app">Pomofocus</a>
-                        <ul>
-                            <li>Limited <b>customization</b></li>
-                        </ul>
-                    </li>
-                    
-                    <li>
-                        <a href="https://lifeat.io/">LifeAt</a>
-                        <ul>
-                            <li>Too <b>basic</b> of a timer</li>
-                            <li>Kinda <b>boring</b></li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
-            <hr>
-            <section>
-                <h3>UI Design</h3>
-                <img src="./images/ui_design.png" alt="UI design for a pomodoro timer web app" width="400">
-                <ul>
-                    <li>
-                        Feedback
-                        <ul>
-                            <li>Maybe make the <em>timer buttons smaller</em>?</li>
-                        </ul>
-                    </li>
-                    <li><strong>Needs to be done</strong>: wireframes, settings page, sign up page, log-in page</li>
-                </ul>
-            </section>
-            <hr>
-            <section>
-                <h3>Comments / Questions / Concerns?</h3>
-                <ul>
-                    <li>None.</li>
-                </ul>
-            </section>
+        </header>
+        <main>
+            <div class="row-1 col-1" id="attendance">
+                <section>
+                    <h2>Attendance</h2>
+                    <ul>
+                        <li>John Appleseed</li>
+                        <li>Marcus Burgham</li>
+                        <li>Rob Jobs</li>
+                        <li>Alesia Chavez</li>
+                    </ul>    
+                </section>
+            </div>
+            <div class="row-1 col-2" id="agenda">
+                <section>
+                    <h2>Agenda</h2>
+                    <ol>
+                        <li>Unfinished Business</li>
+                        <li>Job To Be Done</li>
+                        <li>Feature Requests</li>
+                        <li>Pain Points</li>
+                        <li>UI Design</li>
+                    </ol>
+                </section>
+            </div>
+            <div class="row-2 col-1" id="unfinished-biz">
+                <section>
+                    <h3>Unfinished Business</h3>
+                    <ol>
+                        <li>Role assignments</li>
+                        <li>Fill out When2Meet for weekly meetings</li>
+                        <li>Request access for project resources</li>
+                    </ol>
+                </section>
+            </div>
+            <div class="row-2 col-2" id="jtbd">
+                <section>
+                    <h3>Job To Be Done</h3>
+                    <ul>
+                        <li>
+                            What users are using the software to <em>get done</em>; their <em>emotional motivation</em>
+                            <ul>
+                                <li>Get good grades on their exams</li>
+                                <li>Get a raise for their good work</li>
+                                <li>Develop discipline</li>
+                                <li>Take responsibility for their life</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="row-3 col-1" id="feature-reqs">
+                <section>
+                    <h3>Feature Requests</h3>
+                    <ul>
+                        <li>
+                            Task list
+                            <ul>
+                                <li>Add multiple tasks with UI</li>
+                                <li>Import list(?)</li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            Custom timer templates
+                            <ul>
+                                <li>Different durations in order</li>
+                                <li>Same duration</li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </section>
+            </div>
+            <div class="row-3 col-2" id="pain-pts">
+                <section>
+                    <h3>Pain Points</h3>
+                    <p>Competitors</p>
+                    <ul>
+                        <li>
+                            <a href="https://pomofocus.io/app">Pomofocus</a>
+                            <ul>
+                                <li>Limited <b>customization</b></li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            <a href="https://lifeat.io/">LifeAt</a>
+                            <ul>
+                                <li>Too <b>basic</b> of a timer</li>
+                                <li>Kinda <b>boring</b></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="row-4 col-1" id="ui-dsgn">
+                <section>
+                    <h3>UI Design</h3>
+                    <img src="./images/ui_design.png" alt="UI design for a pomodoro timer web app" width="400">
+                    <ul>
+                        <li>
+                            Feedback
+                            <ul>
+                                <li>Maybe make the <em>timer buttons smaller</em>?</li>
+                            </ul>
+                        </li>
+                        <li><strong>Needs to be done</strong>: wireframes, settings page, sign up page, log-in page</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="row-4 col-2" id="concerns">
+                <section>
+                    <h3>Comments / Questions / Concerns?</h3>
+                    <ul>
+                        <li>None.</li>
+                    </ul>
+                </section>
+            </div>
         </main>
         <hr>
         <form>
@@ -183,7 +192,6 @@
                 <textarea id="concern" name="concern" rows="4" cols="50"></textarea><br>
                 <label for="submit-btn"></label>
                 <input type="submit" id="submit-btn">
-                
             </fieldset>
         </form>
         <footer>
