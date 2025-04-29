@@ -116,6 +116,29 @@ section {
 /* Form */
 form {
     position: relative;
+    display: flexbox;
+    min-width: 600px;
+}
+
+legend {
+    background-color: #bd2a1e;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#mail:hover, #submit-btn:hover {
+    background-color: #73af2a;
+    border-color: #8fe02b;
+    border-width: 2px;
+    border-style: inset;
+}
+
+#mail:active, #submit-btn:active {
+    background-color: #8fe02b;
+    border-color: #73af2a;
+    border-width: 2px;
+    border-style: outset;
 }
 
 /* Animations */
